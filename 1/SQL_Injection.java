@@ -9,7 +9,7 @@ Statement stmt = connection.createStatement();
 ResultSet rs = stmt.executeQuery(query);
 }
 
-  lass C {
+  public class C {
 
   public static void main(String args[]) {
   BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
