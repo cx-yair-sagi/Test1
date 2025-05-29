@@ -9,9 +9,9 @@ Statement stmt = connection.createStatement();
 ResultSet rs = stmt.executeQuery(query);
 }
 
-  public class C {
 
-  public static void main(String args[]) {
+
+  public static void main1(String args[]) {
   BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
   String input = bufferedReader.readLine();
   String userid = input;
